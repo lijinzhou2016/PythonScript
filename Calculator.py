@@ -1,9 +1,14 @@
 #!/usr/bin/env python 
-# coding:utf-8
-
-# Li_jinzhou@hoperun.com
-# v2.0
-# 2016-9-28
+# -*- coding: UTF-8 -*-
+#*****************************************************************************
+# Title         : Calculator.py
+# Author        : Ljz
+# Created		: 30th December 2016
+# Last Modified	: 30th December 2016
+# Version		: 2.0
+# 
+# Description   : Calculate the N number of add, subtract, multiply and divide
+#*****************************************************************************
 
 from __future__ import division
 import re
@@ -11,7 +16,6 @@ import sys
 
 mydict = {'*':{'operation':lambda x,y:x*y,'level':2},
 		  '/':{'operation':lambda x,y:x/y,'level':2},
-		  '%':{'operation':lambda x,y:x%y,'level':2},
 		  '+':{'operation':lambda x,y:x+y,'level':1},
 		  '-':{'operation':lambda x,y:x-y,'level':1}}
 
