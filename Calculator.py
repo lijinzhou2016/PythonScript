@@ -3,9 +3,9 @@
 #*****************************************************************************
 # Title         : Calculator.py
 # Author        : Ljz
-# Created		: 30th December 2016
-# Last Modified	: 30th December 2016
-# Version		: 2.0
+# Created       : 30th December 2016
+# Last Modified : 30th December 2016
+# Version       : 2.0
 # 
 # Description   : Calculate the N number of add, subtract, multiply and divide
 #*****************************************************************************
